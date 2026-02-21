@@ -1,4 +1,4 @@
-const canvas = document.getElementById("particles");
+ const canvas = document.getElementById("particles");
 const ctx = canvas.getContext("2d");
 
 canvas.width = window.innerWidth;
@@ -68,3 +68,17 @@ function connectParticles() {
 
  const palavraChave = "Clientes";
  const span = document.querySelector('#typing');
+
+
+
+
+
+
+
+ 
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
